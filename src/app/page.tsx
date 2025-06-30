@@ -26,7 +26,7 @@ export default function Home() {
                 </p>
                 <p>
                     Outside of computer science, I&apos;m interested in music,
-                    film, urbanism, public transportation, and basketball.
+                    urbanism, public transportation, basketball, and running.
                 </p>
             </div>
             <div className="flex flex-col gap-5">
