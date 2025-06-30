@@ -36,7 +36,7 @@ export default function Home() {
                     <div className="flex gap-2">
                         <p className="font-medium">St. Timothy&apos;s School</p>
                         <p className="text-neutral-500 dark:text-neutral-400">
-                            2018 - 2025
+                            2018 – 2025
                         </p>
                     </div>
                     <p>
@@ -56,7 +56,7 @@ export default function Home() {
                             Class Search
                         </a>{" "}
                         <p className="text-neutral-500 dark:text-neutral-400">
-                            2024 - Now
+                            2024 – Now
                         </p>
                     </div>
                     <p>
