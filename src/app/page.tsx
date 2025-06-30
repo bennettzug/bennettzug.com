@@ -1,5 +1,5 @@
 // import { IoIosMail, IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
-// import { FaLetterboxd } from "react-icons/fa6";
+// import { FaLetterboxd, FaSquareLastfm } from "react-icons/fa6";
 
 export default function Home() {
     return (
@@ -26,7 +26,7 @@ export default function Home() {
                 </p>
                 <p>
                     Outside of computer science, I&apos;m interested in music,
-                    film, urbanism and transit, and basketball.
+                    film, urbanism, public transportation, and basketball.
                 </p>
             </div>
             <div className="flex flex-col gap-5">
@@ -60,8 +60,8 @@ export default function Home() {
                         </p>
                     </div>
                     <p>
-                        Built a website for students to search for classes at
-                        using semantic search (currently offline).
+                        Built a website for students to search for classes using
+                        semantic search (currently offline).
                     </p>
                 </div>
 
@@ -118,6 +118,13 @@ export default function Home() {
                     >
                         {/* <FaLetterboxd /> */}
                         🎬 Letterboxd
+                    </a>
+                    <a
+                        className="flex items-center gap-1 underline decoration-2 decoration-neutral-300 hover:text-neutral-500 dark:decoration-neutral-700 dark:hover:text-neutral-400"
+                        href="https://www.last.fm/user/bennettzug"
+                    >
+                        {/* <FaLastfmSquare /> */}
+                        🎵 Last.fm
                     </a>
                 </div>
             </div>
