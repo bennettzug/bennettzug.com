@@ -100,7 +100,7 @@ export default function Home() {
 
                     <a
                         className="flex items-center gap-1 underline decoration-2 decoration-neutral-300 hover:text-neutral-500 dark:decoration-neutral-700 dark:hover:text-neutral-400"
-                        href="https://www.linkedin.com/in/bennett-zug/"
+                        href="https://www.linkedin.com/in/bennettzug/"
                     >
                         {/* <IoLogoLinkedin /> */}
                         💼 LinkedIn
