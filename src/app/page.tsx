@@ -21,8 +21,8 @@ export default function Home() {
                 <p>
                     I grew up in Raleigh, North Carolina, and currently study
                     computer science and mathematics at NC State University. My
-                    academic interests include artificial intelligence, machine
-                    learning, and numerical methods.
+                    academic interests include machine learning, data science,
+                    and numerical methods.
                 </p>
                 <p>
                     Outside of computer science, I&apos;m interested in music,
