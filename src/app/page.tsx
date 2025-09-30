@@ -61,7 +61,7 @@ export default function Home() {
                     </div>
                     <p>
                         Built a website for students to search for classes using
-                        semantic search (currently offline).
+                        semantic search.
                     </p>
                 </div>
 
