@@ -67,24 +67,43 @@ export default function Home() {
 
                 <div className="flex flex-col gap-1">
                     <div className="flex gap-2">
-                        <p className="font-medium">SimCLR</p>
+                        <p className="font-medium">GitHub Issue Labeling</p>
                         <p className="text-neutral-500 dark:text-neutral-400">
                             2025
                         </p>
                     </div>
                     <p>
                         {" "}
-                        Evaluated SimCLR on STL-10 for a research project.
+                        Fine-tuned DistilBERT and RoBERTa models to automatically classify GitHub issues by type.
                         Co-authored{" "}
                         <a
                             className="underline decoration-2 decoration-neutral-300 hover:text-neutral-500 dark:decoration-neutral-700 dark:hover:text-neutral-400"
-                            href="/simclr_paper.pdf"
+                            href="/githubissues_paper.pdf"
                         >
-                            a short paper
+                            a paper
                         </a>{" "}
                         on the results.
                     </p>
                 </div>
+
+                <div className="flex flex-col gap-1">
+                    <div className="flex gap-2">
+                        <p className="font-medium">Music Player</p>
+                        <p className="text-neutral-500 dark:text-neutral-400">
+                            2025
+                        </p>
+                    </div>
+                    <p>
+                        Built a local music library player for macOS in Swift.{" "}
+                        <a
+                            className="underline decoration-2 decoration-neutral-300 hover:text-neutral-500 dark:decoration-neutral-700 dark:hover:text-neutral-400"
+                            href="https://github.com/bennettzug/musicplayer"
+                        >
+                            GitHub
+                        </a>
+                    </p>
+                </div>
+
             </div>
 
             <div className="flex flex-col gap-5">
@@ -128,6 +147,6 @@ export default function Home() {
                     </a>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
