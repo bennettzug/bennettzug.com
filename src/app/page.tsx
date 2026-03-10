@@ -31,17 +31,27 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-5">
                 <p className="font-semibold">Work</p>
-
                 <div className="flex flex-col gap-1">
                     <div className="flex gap-2">
                         <p className="font-medium">St. Timothy&apos;s School</p>
                         <p className="text-neutral-500 dark:text-neutral-400">
-                            2018 – 2025
+                            2018 – 2025
                         </p>
                     </div>
                     <p>
                         Managed student and teacher accounts and devices, and
                         optimized internal IT workflows.
+                    </p>
+                </div>
+                <div className="flex flex-col gap-1">
+                    <div className="flex gap-2">
+                        <p className="font-medium">Triangle Rock Club</p>
+                        <p className="text-neutral-500 dark:text-neutral-400">
+                            2021 – 2023
+                        </p>
+                    </div>
+                    <p>
+                        Coached youth climbing programs and worked as an event belayer.
                     </p>
                 </div>
             </div>
