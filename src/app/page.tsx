@@ -98,19 +98,35 @@ export default function Home() {
 
                 <div className="flex flex-col gap-1">
                     <div className="flex gap-2">
-                        <p className="font-medium">Music Player</p>
+                        <a
+                            className="font-medium underline decoration-2 decoration-neutral-300 hover:text-neutral-500 dark:decoration-neutral-700 dark:hover:text-neutral-400"
+                            href="https://radar.ecoutelabs.com"
+                        >
+                            Radar
+                        </a>
                         <p className="text-neutral-500 dark:text-neutral-400">
-                            2025
+                            2025 – Now
                         </p>
                     </div>
                     <p>
-                        Built a local music library player for macOS in Swift.{" "}
+                        A weekly concert digest email, pulling shows from local venues and ticketing platforms.
+                    </p>
+                </div>
+
+                <div className="flex flex-col gap-1">
+                    <div className="flex gap-2">
                         <a
-                            className="underline decoration-2 decoration-neutral-300 hover:text-neutral-500 dark:decoration-neutral-700 dark:hover:text-neutral-400"
-                            href="https://github.com/bennettzug/musicplayer"
+                            className="font-medium underline decoration-2 decoration-neutral-300 hover:text-neutral-500 dark:decoration-neutral-700 dark:hover:text-neutral-400"
+                            href="https://ecoute.ecoutelabs.com"
                         >
-                            GitHub
+                            écoute
                         </a>
+                        <p className="text-neutral-500 dark:text-neutral-400">
+                            2025 – Now
+                        </p>
+                    </div>
+                    <p>
+                        An album-centric music player for macOS. Local files only.
                     </p>
                 </div>
 
